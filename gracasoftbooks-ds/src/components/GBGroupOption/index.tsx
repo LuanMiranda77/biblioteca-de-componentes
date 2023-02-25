@@ -53,6 +53,7 @@ const SectionEstyle = styled.section<{select: boolean}>`
     }
 `;
 
+
 export const GBGroupOption = ({options, onChange, defaultValue}:GbGroupOptionProps) => {
 
    const [select, setSelect] =  useState<OptionProps | null>(defaultValue ?? null); 
